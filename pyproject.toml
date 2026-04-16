@@ -11,3 +11,6 @@ dependencies = [
     "pandas>=2.3.0",
     "sqlalchemy-access>=1.1.3",
 ]
+
+[project.scripts]
+mcp-server-access-mdb = "server:mcp.run"
