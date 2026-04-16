@@ -14,3 +14,6 @@ dependencies = [
 
 [project.scripts]
 mcp-server-access-mdb = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]
