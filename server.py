@@ -56,7 +56,9 @@ mcp.tool(name="import_excel")(ImportExcel)
 mcp.tool(name="read_notes")(ReadNotes)
 mcp.tool(name="write_notes")(WriteNotes)
 
-
+def main():
+    mcp.run()
+    
 # Run the MCP server event loop
 if __name__ == "__main__":
-    mcp.run()
+    main()

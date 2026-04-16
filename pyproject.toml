@@ -13,4 +13,4 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-server-access-mdb = "server:mcp.run"
+mcp-server-access-mdb = "mcp_server_access_mdb:main"
